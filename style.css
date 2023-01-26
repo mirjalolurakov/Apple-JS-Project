@@ -10,6 +10,7 @@
 
     max-width: 1900px;
     margin: 0 auto;
+    position: sticky;
 }
 
 /* HEADER// */
@@ -125,9 +126,19 @@ button :hover {
 
 }
 
+.banner__right__content span {
+    color: #86868b;
+    font-size: 22px;
+}
+
 .banner__right__content h1 {
     font-size: 22px;
 
+}
+
+.banner__right__content p {
+    font-size: 16px;
+    color: #86868b;
 }
 
 .models {
