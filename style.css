@@ -6,6 +6,20 @@
     list-style-type: none;
 }
 
+.list {
+    box-sizing: border-box;
+    color: #1d1d1f;
+
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
 .wrapper {
 
     max-width: 1900px;
@@ -92,16 +106,13 @@
     padding: 90px;
 }
 
-button {
+.btn__color button {
     height: 32px;
     width: 32px;
     border-radius: 50%;
     border: none;
 }
 
-button :hover {
-    border-color: blue;
-}
 
 #btn__purple {
     background-color: #645b6d;
@@ -119,6 +130,11 @@ button :hover {
 #btn__black {
     background-color: #494846;
 }
+
+#btn__gray {
+    background-color: gray;
+}
+
 
 .banner__right__content {
     padding: 40px;
@@ -235,4 +251,249 @@ button :hover {
 
 .color__title span {
     color: #86868b;
+}
+
+/* TABS */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 12px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+    padding: 40px;
+    transition: 0.3s;
+    font-size: 17px;
+    border: 1px solid #d2d2d7;
+    background: #fff;
+    position: relative;
+    margin-left: -1px;
+    z-index: 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: inline-block;
+    padding-top: 1.76471rem;
+    padding-bottom: 1.76471rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    text-align: center;
+
+}
+
+.question a {
+    text-decoration: underline;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+
+
+}
+
+.tabcontent img {
+    width: 300px;
+}
+
+.mac__first,
+.mac__second {
+    height: 100vh;
+}
+
+.mac__first,
+.mac__second span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding-left: 12px;
+
+
+}
+
+
+.mac__color {
+    padding-left: 12px;
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.mac__color button {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: none;
+}
+
+
+
+.info__mac {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 10px;
+}
+
+.mac__text {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* margin: 15px 0 0; */
+    padding-top: 15px;
+    list-style: none;
+}
+
+.full__price span {
+    padding: 10px;
+    font-synthesis: none;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.full__price p {
+    font-size: 21px;
+    line-height: 1.16667;
+    font-weight: 600;
+    padding-left: 10px;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.full__price h1 {
+    font-size: 15px;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 10px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.pay {
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    color: #06c;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    vertical-align: inherit;
+    cursor: pointer;
+}
+
+.pay a {
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 0px;
+}
+
+.mac__second h3 {
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 400;
+
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.trade-in {
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: 'Roboto';
+}
+
+.trade-in span {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: 'Roboto';
+}
+
+
+
+.select__btn {
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.select__btn button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 368px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    background: #0071e3;
+    color: #fff;
+
+
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
